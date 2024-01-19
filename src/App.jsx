@@ -21,6 +21,9 @@ function App() {
           <mesh position={[0, 3, -5]}>
             <boxGeometry />
           </mesh>
+          <mesh position={[3, 3, -5]}>
+            <boxGeometry />
+          </mesh>
         </RigidBody>
         <Text3D font={fontUrl} position={[-5, 5, -10]} size={0.8}>
           Ti pidor!
