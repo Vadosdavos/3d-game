@@ -33,6 +33,8 @@ module.exports = {
     'react/no-unknown-property': "off",
     "import/no-extraneous-dependencies": ["off"],
     "import/prefer-default-export": "off",
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-underscore-dangle": "off"
   },
 }

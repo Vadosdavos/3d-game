@@ -9,7 +9,7 @@ export default function Ground() {
   texture.wrapT = THREE.RepeatWrapping;
   return (
     <RigidBody type="fixed" colliders={false}>
-      <mesh position={[0, 0, 0]} rotation-x={-Math.PI / 2}>
+      <mesh receiveShadow position={[0, 0, 0]} rotation-x={-Math.PI / 2}>
         <planeGeometry args={[500, 500]} />
         <meshStandardMaterial color="gray" map={texture} map-repeat={[100, 100]} />
       </mesh>
