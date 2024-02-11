@@ -1,7 +1,7 @@
 import { useGLTF } from "@react-three/drei";
 
 export function WeaponModel(props) {
-  const { nodes, materials } = useGLTF("3d-game/weapon.glb");
+  const { nodes, materials } = useGLTF("./weapon.glb");
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, -Math.PI / 2]}>
@@ -25,4 +25,4 @@ export function WeaponModel(props) {
   );
 }
 
-useGLTF.preload("3d-game/weapon.glb");
+useGLTF.preload("./weapon.glb");

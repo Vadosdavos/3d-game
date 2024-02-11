@@ -1,7 +1,7 @@
 import { WeaponModel } from "./weapon-model.jsx";
 
 export const Weapon = (props) => (
-  <gro5up {...props}>
+  <group {...props}>
     <WeaponModel />
-  </gro5up>
+  </group>
 );
