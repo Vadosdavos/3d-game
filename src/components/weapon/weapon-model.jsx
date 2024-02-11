@@ -1,7 +1,10 @@
+/* eslint-disable import/no-absolute-path */
+/* eslint-disable import/no-unresolved */
 import { useGLTF } from "@react-three/drei";
+import weapon from "/weapon.glb?url";
 
 export function WeaponModel(props) {
-  const { nodes, materials } = useGLTF("./weapon.glb");
+  const { nodes, materials } = useGLTF(weapon);
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, -Math.PI / 2]}>
@@ -25,4 +28,4 @@ export function WeaponModel(props) {
   );
 }
 
-useGLTF.preload("./weapon.glb");
+useGLTF.preload(weapon);
