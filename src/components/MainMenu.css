@@ -1,0 +1,69 @@
+.main-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  color: white;
+}
+
+.menu-buttons {
+  text-align: center;
+}
+
+.menu-buttons h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.menu-buttons button,
+.description button {
+  display: block;
+  width: 200px;
+  padding: 1rem;
+  margin: 1rem auto;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-buttons button:hover,
+.description button:hover {
+  background-color: #45a049;
+}
+
+.description {
+  max-width: 600px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.description h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.description h3 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.description ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.description li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+} 
